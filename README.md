@@ -22,10 +22,11 @@ Then:
 
 ```sh
 bun install # or npm install
-bun start
+bun start # start Slack Bolt server
+bun run dev # starts Mastra dev studio
 ```
 
-> [!NOTE}
-> It uses Slack "Socket Mode" in development.
+> [!NOTE]
+> The demo files are what I'm using in real-life, so it's not really meant to be run but you certainly can try 😄 There's nothing product-specific here (yet).
 
-The demo files are what I'm using in real-life, so it's not really meant to be run but you certainly can try 😄 There's nothing product-specific here (yet).
+The way the app is written here is not meant to be hosted outside the local machine. I'm working on a Slack Bolt receiver that integrates with Mastra's Hono server using custom API endpoints. Once I have that figured out, it should be able to be hosted on Mastra Cloud or another provider for production use.
