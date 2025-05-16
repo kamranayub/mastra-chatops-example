@@ -5,6 +5,7 @@ An example of building a Slack-based ChatOps agent with Mastra:
 - Has working memory
 - Hooked up to Slack
 - Can restart virtual machines with Vultr tool
+- Showcases Human-in-the-Loop approvals with Slack BlockKit UI
 
 ## Video
 
