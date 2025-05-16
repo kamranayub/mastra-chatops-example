@@ -1,0 +1,5 @@
+.env
+.mastra/
+*.db
+*.db-shm
+*.db-wal
